@@ -163,7 +163,7 @@
                 height: 14px;
               "
             >
-              Dataset Management LLC
+              Dataset Information Management LLC
             </p>
             <p
               style="
@@ -173,7 +173,7 @@
                 height: 14px;
               "
             >
-              8840 Warner Ave. Ste 302
+              88400 Warner Ave. Ste 302
             </p>
             <p
               style="
@@ -183,7 +183,7 @@
                 height: 14px;
               "
             >
-              Fountain Valley, CA 92708
+              Fountain Valley, CA 92709
             </p>
             <!-- <span style="color:black; display:block; font-size:15px; height: 25px">(714) 848-0228 D.M.L</span> -->
           </div>

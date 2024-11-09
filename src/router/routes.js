@@ -51,6 +51,11 @@ const routes = [
         component: () => import("pages/UserProfile.vue"),
         meta: { requiresAuth: true },
       }, // Added UserProfile route
+      // {
+      //   path: "Echeck",
+      //   component: () => import("pages/ViewCheckLayout.vue"),
+      //   meta: { requiresAuth: true },
+      // }, // Added UserProfile route
     ],
   },
   // Wildcard Route for 404 - Keep it last
