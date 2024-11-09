@@ -242,9 +242,6 @@ dbMongo.once("open", function () {
   config - webpush
 */
 webpush.setVapidDetails(
-  // "mailto:test@test.com",
-  // "BL7KqJ0PBikP5VBeXL9yP5_nktP_8WA2yUjBiXYaJVJd-vFeP2VWy-fntOc3Z3rAKDGjC0EYnY5bN1ipIZvdqvo", // public key
-  // "-T7LbUhzERsyUwYkeO7JiLIj8bCT32kBCde1g5dWrA0" // private key
   process.env.VAPID_CONTACT_EMAIL,
   process.env.VAPID_PUBLIC_KEY,
   process.env.VAPID_PRIVATE_KEY
