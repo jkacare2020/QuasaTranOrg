@@ -230,8 +230,6 @@ app.get("/transacts/:id", async (req, res) => {
   }
 });
 // mongoose.connect(
-// "mongodb+srv://jstaskapp:Axson2019@cluster0-aqvnx.mongodb.net/Axson-task-manager-api?",
-// {
 mongoose.connect(process.env.MONGODB_URL);
 
 const dbMongo = mongoose.connection;
