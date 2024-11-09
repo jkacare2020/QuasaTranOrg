@@ -39,4 +39,4 @@ yarn-error.log*
 backend/serviceAccountKey.json
 
 
-
+backend/.env
