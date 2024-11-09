@@ -6,17 +6,17 @@ node_modules
 .quasar
 /dist
 
-# Cordova related directories and files
+# Cordova related directories
 /src-cordova/node_modules
 /src-cordova/platforms
 /src-cordova/plugins
 /src-cordova/www
 
-# Capacitor related directories and files
+# Capacitor related directories
 /src-capacitor/www
 /src-capacitor/node_modules
 
-# BEX related directories and files
+# BEX related directories
 /src-bex/www
 /src-bex/js/core
 
@@ -32,5 +32,6 @@ yarn-error.log*
 *.njsproj
 *.sln
 
-#gitignore
+# Environment files
 .env
+
