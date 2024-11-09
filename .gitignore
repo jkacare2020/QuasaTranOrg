@@ -36,6 +36,7 @@ yarn-error.log*
 .env
 
 #backend keys
-serviceAccountKeys.json
+backend/serviceAccountKey.json
+
 
 
