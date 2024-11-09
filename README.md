@@ -1,11 +1,15 @@
 # QuasaTran
+
 A Quasar application using Firebase for authentication and storage, alongside MongoDB for data management.
+
 # QuasaTran - Quasar App with Firebase and MongoDB Integration
 
 ## Description
+
 QuasaTran is a web application built using the Quasar Framework. It leverages Firebase for authentication and image storage, and MongoDB for handling structured data. This project serves as a social media platform where users can upload photos, set dynamic avatars, and more.
 
 ## Features
+
 - **Authentication**: Firebase Authentication to securely manage user logins and signups.
 - **Image Storage**: Firebase Storage for uploading and managing user photos.
 - **Data Management**: MongoDB to store and retrieve structured user and transaction data.
@@ -16,6 +20,7 @@ QuasaTran is a web application built using the Quasar Framework. It leverages Fi
 ## Installation
 
 ### 1. Clone the repository
+
 ```bash
 git clone https://github.com/jkacare2020/QuasaTran.git
 
@@ -68,3 +73,4 @@ git push heroku main
 This project is licensed under the MIT License.
 This README provides a comprehensive overview and setup instructions for your project. Let me know if you'd like to adjust any section!
 
+```
