@@ -1,6 +1,6 @@
 # QuasaTran
 A Quasar application using Firebase for authentication and storage, alongside MongoDB for data management.
-# Quasagram - Quasar App with Firebase and MongoDB Integration
+# QuasaTran - Quasar App with Firebase and MongoDB Integration
 
 ## Description
 QuasaTran is a web application built using the Quasar Framework. It leverages Firebase for authentication and image storage, and MongoDB for handling structured data. This project serves as a social media platform where users can upload photos, set dynamic avatars, and more.
