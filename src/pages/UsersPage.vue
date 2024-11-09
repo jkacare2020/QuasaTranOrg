@@ -29,60 +29,6 @@
   </div>
 </template>
 
-<!-- <script>
-import { ref, onMounted } from "vue";
-import axios from "axios";
-import { auth } from "src/firebase/firebase"; // Import Firebase auth if you're using Firebase
-import { onAuthStateChanged } from "firebase/auth"; // Adjust this import based on your Firebase setup
-
-export default {
-  setup() {
-    const users = ref([]);
-
-    // Fetch users from MongoDB backend
-    const fetchUsers = async () => {
-      try {
-        // Get the Firebase ID token
-        const idToken = await auth.currentUser.getIdToken();
-
-        console.log("Fetching users from:", `${process.env.API}/mongo-users`);
-        const response = await axios.get(`${process.env.API}/mongo-users`, {
-          headers: { Authorization: `Bearer ${idToken}` }, // Include token in Authorization header
-        });
-        users.value = response.data;
-        console.log("Users fetched from MongoDB:", users.value);
-      } catch (error) {
-        console.error("Error fetching users from backend:", error);
-      }
-    };
-
-    //------------  Format the date for display-------------------------------------------------------
-
-    const formatDate = (dateString) => {
-      const date = new Date(dateString);
-      return date.toISOString().split("T")[0]; // Format date as YYYY-MM-DD
-    };
-
-    // Fetch the data when the component is mounted
-    onMounted(fetchUsers);
-
-    return {
-      users,
-      formatDate,
-    };
-  },
-};
-
-// Only fetch users when authentication state is confirmed
-onAuthStateChanged(auth, (user) => {
-  if (user) {
-    console.log("User is authenticated, fetching users.");
-    fetchUsers();
-  } else {
-    console.warn("User is not authenticated.");
-  }
-});
-</script> -->
 <script>
 import axios from "axios";
 import { auth, db } from "src/firebase/firebase"; // Ensure db is correctly imported for Firestore checks
