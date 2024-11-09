@@ -400,8 +400,7 @@ export default {
       }
     },
     createPushSubscription(reg) {
-      let vapidPublicKey =
-        "BL7KqJ0PBikP5VBeXL9yP5_nktP_8WA2yUjBiXYaJVJd-vFeP2VWy-fntOc3Z3rAKDGjC0EYnY5bN1ipIZvdqvo";
+      let vapidPublicKey = process.env.VUE_APP_VAPID_PUBLIC_KEY;
       let vapidPublicKeyConverted = this.urlBase64ToUint8Array(vapidPublicKey);
       reg.pushManager
         .subscribe({
